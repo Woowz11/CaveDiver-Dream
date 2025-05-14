@@ -4,7 +4,7 @@
 	"$bumpmap" "woowz_texture_pack_1/ground_grass_forest_sand_pebble_n"
 	"$surfaceprop" "grass"
 	
-	"$detail" "gm_construct/grass_clouds"
+	"$detail" "woowz_texture_pack_1/noise"
+	"$detailscale" "0.2"
 	"$detailblendfactor" "0.5"
-	"$detailscale" "0.5"
 }

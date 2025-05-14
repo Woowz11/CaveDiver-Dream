@@ -1,0 +1,73 @@
+detail
+{
+	travka_test
+	{
+		"density" "50000.0"
+
+		Group1
+		{
+			"alpha" "0.0"
+
+			Model1
+			{
+				"sprite" "0 0 256 256 512" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "1"
+				"detailOrientation" "0"
+			}
+			
+			Model2
+			{
+				"sprite" "256 0 256 256 512" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "1"
+				"detailOrientation" "0"
+			}
+			
+			Model3
+			{
+				"sprite" "0 256 256 256 512" 
+				"spritesize" "0.5 0.0 48 48"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "0"
+			}
+			
+			
+			Model3
+			{
+				"sprite" "256 256 256 256 512" 
+				"spritesize" "0.5 0.0 48 64"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "0"
+			}
+
+		}
+		
+		Group2
+		{
+			"alpha" "1.0"
+			
+			Model1
+			{
+				"sprite" "0 256 256 256 512" 
+				"spritesize" "0.5 0.0 48 48"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "0"
+			}
+			
+			Model2
+			{
+				"sprite" "256 256 256 256 512" 
+				"spritesize" "0.5 0.0 48 64"
+				"spriterandomscale" "0.2"
+				"amount" "0.05"
+				"detailOrientation" "0"
+			}
+		}
+	}
+}

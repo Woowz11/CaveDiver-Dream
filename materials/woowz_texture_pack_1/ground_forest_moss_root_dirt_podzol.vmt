@@ -5,6 +5,6 @@
 	"$surfaceprop" "dirt"
 	
 	"$detail" "woowz_texture_pack_1/noise"
+	"$detailscale" "0.2"
 	"$detailblendfactor" "0.5"
-	"$detailscale" "0.5"
 }

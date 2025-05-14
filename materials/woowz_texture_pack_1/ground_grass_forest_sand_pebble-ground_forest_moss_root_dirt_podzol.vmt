@@ -1,0 +1,20 @@
+WorldVertexTransition
+{
+	%tooltexture "woowz_texture_pack_1/ground_grass_forest_sand_pebble-ground_forest_moss_root_dirt_podzol"
+
+	$basetexture "woowz_texture_pack_1/ground_grass_forest_sand_pebble"
+	$bumpmap "woowz_texture_pack_1/ground_grass_forest_sand_pebble_n"
+	$surfaceprop "grass"
+
+	$basetexture2 "woowz_texture_pack_1/ground_forest_moss_root_dirt_podzol"
+	$bumpmap2 "woowz_texture_pack_1/ground_forest_moss_root_dirt_podzol_n"
+	$surfaceprop2 "dirt"
+	
+	$detail "woowz_texture_pack_1/noise"
+	$detailscale "0.2"
+	$detailblendfactor "0.5"
+	
+	$blendmodulatetexture "woowz_texture_pack_1/ground_grass_forest_sand_pebble-ground_forest_moss_root_dirt_podzol_b"
+	
+	%detailtype "travka_test"
+}
