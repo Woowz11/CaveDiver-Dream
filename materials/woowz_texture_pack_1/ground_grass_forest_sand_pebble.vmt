@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "woowz_texture_pack_1/ground_grass_forest_sand_pebble"
+	"$bumpmap" "woowz_texture_pack_1/ground_grass_forest_sand_pebble_n"
+	"$surfaceprop" "grass"
+	
+	"$detail" "gm_construct/grass_clouds"
+	"$detailblendfactor" "0.5"
+	"$detailscale" "0.5"
+}
