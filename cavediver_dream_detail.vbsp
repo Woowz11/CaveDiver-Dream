@@ -2,7 +2,7 @@ detail
 {
 	grass
 	{
-		"density" "2000.0"
+		"density" "5000.0"
 
 		Group1
 		{

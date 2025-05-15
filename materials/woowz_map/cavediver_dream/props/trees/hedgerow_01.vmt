@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "woowz_map/cavediver_dream/props/trees/hedgerow_01"
+	"$nocull" 1
+	"$alphatest" 1
+	"$model" 1
+	"$surfaceprop" "foliage"
+	"$nodecal" 1
+}
