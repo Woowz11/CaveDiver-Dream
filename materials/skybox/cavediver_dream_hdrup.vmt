@@ -1,7 +1,7 @@
-"sky"
+sky
 {
-	"$baseTexture" "skybox/sky_morning002up"
-	"$nofog" "1"
-	"$ignorez" "1"
-	"$hdrcompressedtexture" "skybox/sky_morning002_hdrup"
+	$baseTexture "skybox/cavediver_dreamup"
+	$nofog "1"
+	$ignorez "1"
+	$hdrcompressedtexture "skybox/cavediver_dream_hdrup"
 }

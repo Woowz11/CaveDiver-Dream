@@ -1,6 +1,6 @@
-"UnlitGeneric"
+UnlitGeneric
 {
-	"$baseTexture" "skybox/sky_morning002bk"
-	"$ignorez" "1"
-	"$nofog" "1"
+	$baseTexture "skybox/cavediver_dreambk"
+	$ignorez "1"
+	$nofog "1"
 }
