@@ -1,7 +1,0 @@
-sky
-{
-	$baseTexture "skybox/cavediver_dreamup"
-	$nofog "1"
-	$ignorez "1"
-	$hdrcompressedtexture "skybox/cavediver_dream_hdrup"
-}
