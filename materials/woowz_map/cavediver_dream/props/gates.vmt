@@ -1,0 +1,7 @@
+VertexlitGeneric
+{
+	$basetexture "woowz_map\cavediver_dream\props\gates"
+	$surfaceprop "chain"
+	$nocull 1
+	$alphatest 1
+}

@@ -1,10 +1,10 @@
 LightmappedGeneric
 {
 	"$basetexture" "woowz_map/cavediver_dream/water"
-	$bumpmap "woowz_map/cavediver_dream/water_n"
+	"$bumpmap" "woowz_map/cavediver_dream/water_n"
 	"$normalmap" "woowz_map/cavediver_dream/water_n"
-	"$envmap" "env_cubemap"
-	"$refracttexture" "_rt_WaterRefraction"
+	
+	$selfillum 1
 	
 	"$scale" "[0.2 0.2]"
 	"$translucent" "1"
