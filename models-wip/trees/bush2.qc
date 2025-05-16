@@ -1,5 +1,3 @@
-// Created by Crowbar 0.74
-
 $modelname "woowz_map/cavediver_dream/trees/bush2.mdl"
 
 $staticprop
