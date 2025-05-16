@@ -2,7 +2,7 @@ LightmappedGeneric
 {
 	$basetexture "woowz_map/cavediver_dream/ground_dirt_dry"
 	$bumpmap "woowz_map/cavediver_dream/ground_dirt_dry_n"
-	$surfaceprop "dirt"
+	$surfaceprop "mud"
 	
 	$detail "woowz_map/cavediver_dream/noise"
 	$detailscale "0.2"
