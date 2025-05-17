@@ -4,6 +4,7 @@ LightmappedGeneric
 	"$bumpmap" "woowz_map/cavediver_dream/water_n"
 	"$normalmap" "woowz_map/cavediver_dream/water_n"
 	"$refracttexture" "_rt_WaterRefraction"
+	"$reflecttexture" "_rt_WaterReflection"
 	
 	"$scale" "[0.2 0.2]"
 	"$translucent" "1"
