@@ -1,6 +1,6 @@
 LightmappedGeneric
 {
-	"$basetexture" "woowz_map/cavediver_dream/water"
+	"$basetexture" "woowz_map/cavediver_dream/water_dark"
 	"$bumpmap" "woowz_map/cavediver_dream/water_n"
 	"$normalmap" "woowz_map/cavediver_dream/water_n"
 	"$refracttexture" "_rt_WaterRefraction"
@@ -26,15 +26,15 @@ LightmappedGeneric
 
 	"$texoffset" "[0 0]"
 
-	"$texscale" "1.5"
+	"$texscale" "1"
 
 	"Proxies"
 	{
 		"TextureScroll"
 		{
 			"texturescrollvar" "$texoffset"
-			"texturescrollrate" 0.005
-			"texturescrollangle" 3
+			"texturescrollrate" 0.001
+			"texturescrollangle" -3
 		}
 
 		"TextureTransform"
