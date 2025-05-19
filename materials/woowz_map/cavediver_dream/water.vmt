@@ -19,9 +19,9 @@ LightmappedGeneric
 
 	"$fogcolor" "{0 0 0}"
 
-	"$fogstart" 0.00
+	"$fogstart" 0
 
-	"$fogend" 150.00
+	"$fogend" 100
 
 	"$abovewater" 1
 

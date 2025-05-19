@@ -19,30 +19,9 @@ LightmappedGeneric
 
 	"$fogcolor" "{0 0 0}"
 
-	"$fogstart" 0.00
+	"$fogstart" 0
 
-	"$fogend" 150.00
+	"$fogend" 100
 
 	"$abovewater" 1
-
-	"$texoffset" "[0 0]"
-
-	"$texscale" "1"
-
-	"Proxies"
-	{
-		"TextureScroll"
-		{
-			"texturescrollvar" "$texoffset"
-			"texturescrollrate" 0.001
-			"texturescrollangle" -3
-		}
-
-		"TextureTransform"
-		{
-			"translateVar" "$texoffset"
-			"scaleVar" "$texscale"
-			"resultVar" "$basetexturetransform"
-		}
-	}
 }
