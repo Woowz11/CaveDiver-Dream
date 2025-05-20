@@ -15,4 +15,6 @@ WorldVertexTransition
 	$detailblendfactor "0.5"
 	
 	$blendmodulatetexture "woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_b"
+	
+	%detailtype "plum"
 }

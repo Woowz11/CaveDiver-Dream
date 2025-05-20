@@ -10,7 +10,7 @@ detail
 
 			Model1
 			{
-				"sprite" "0 0 256 256 512" 
+				"sprite" "0 0 256 256 1024" 
 				"spritesize" "0.5 0.0 32 32"
 				"spriterandomscale" "0.2"
 				"amount" "0.3"
@@ -19,7 +19,7 @@ detail
 			
 			Model2
 			{
-				"sprite" "256 0 256 256 512" 
+				"sprite" "256 0 256 256 1024" 
 				"spritesize" "0.5 0.0 32 32"
 				"spriterandomscale" "0.2"
 				"amount" "0.3"
@@ -28,7 +28,7 @@ detail
 			
 			Model3
 			{
-				"sprite" "0 256 256 256 512" 
+				"sprite" "0 256 256 256 1024" 
 				"spritesize" "0.5 0.0 48 48"
 				"spriterandomscale" "0.2"
 				"amount" "0.05"
@@ -36,20 +36,142 @@ detail
 			}
 			
 			
-			Model3
+			Model4
 			{
-				"sprite" "256 256 256 256 512" 
+				"sprite" "256 256 256 256 1024" 
 				"spritesize" "0.5 0.0 48 64"
 				"spriterandomscale" "0.2"
 				"amount" "0.05"
 				"detailOrientation" "0"
 			}
-
+			
+			Model5
+			{
+				"sprite" "512 0 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.005"
+				"detailOrientation" "0"
+			}
+			
+			Model6
+			{
+				"sprite" "768 0 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.005"
+				"detailOrientation" "0"
+			}
+			
+			Model7
+			{
+				"sprite" "512 256 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.005"
+				"detailOrientation" "0"
+			}
+			
+			Model8
+			{
+				"sprite" "768 256 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.005"
+				"detailOrientation" "0"
+			}
 		}
 		
 		Group2
 		{
 			"alpha" "1.0"
+			
+			Model1
+			{
+				"sprite" "512 0 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.005"
+				"detailOrientation" "0"
+			}
+			
+			Model2
+			{
+				"sprite" "768 0 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.005"
+				"detailOrientation" "0"
+			}
+			
+			Model3
+			{
+				"sprite" "512 256 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.005"
+				"detailOrientation" "0"
+			}
+			
+			Model4
+			{
+				"sprite" "768 256 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "0.005"
+				"detailOrientation" "0"
+			}
+		}
+	}
+	
+	plum
+	{
+		"density" "300.0"
+
+		Group1
+		{
+			"alpha" "0.0"
+		}
+		
+		Group2
+		{
+			"alpha" "1.0"
+			
+			Model1
+			{
+				"sprite" "512 0 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "1"
+				"detailOrientation" "0"
+			}
+			
+			Model2
+			{
+				"sprite" "768 0 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "1"
+				"detailOrientation" "0"
+			}
+			
+			Model3
+			{
+				"sprite" "512 256 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "1"
+				"detailOrientation" "0"
+			}
+			
+			Model4
+			{
+				"sprite" "768 256 256 256 1024" 
+				"spritesize" "0.5 0.0 32 32"
+				"spriterandomscale" "0.2"
+				"amount" "1"
+				"detailOrientation" "0"
+			}
 		}
 	}
 }
