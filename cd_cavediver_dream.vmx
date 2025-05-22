@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "358"
+	"mapversion" "357"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "358"
+	"mapversion" "357"
 	"classname" "worldspawn"
 	"detailmaterial" "woowz_map/cavediver_dream/detail"
 	"detailvbsp" "cavediver_dream_detail.vbsp"
@@ -78815,31 +78815,16 @@ entity
 }
 entity
 {
-	"id" "43084"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "-0 0.809171 0.587573"
-	"BasisOrigin" "-13374.6 1130.52 13375.2"
-	"BasisU" "1 0 0"
-	"BasisV" "0 0.587573 -0.809171"
-	"EndU" "0"
-	"EndV" "1"
-	"fademindist" "-1"
-	"material" "woowz_map/cavediver_dream/decals/decal29"
-	"sides" "27961 27955 27967 27973 27835 27841 27847"
-	"StartU" "1"
-	"StartV" "0"
-	"uv0" "-70.6186 -60.8238 0"
-	"uv1" "-70.6186 60.8238 0"
-	"uv2" "70.6186 60.8238 0"
-	"uv3" "70.6186 -60.8238 0"
-	"origin" "-13374.6 1130.52 13375.2"
+	"id" "43042"
+	"classname" "infodecal"
+	"texture" "woowz_map/cavediver_dream/decals/decal29"
+	"origin" "-13435 1098.2 13388.2"
 	editor
 	{
-		"color" "80 150 225"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 -11268]"
+		"logicalpos" "[0 -13268]"
 	}
 }
 cameras
