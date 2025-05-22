@@ -3433,3 +3433,1992 @@ Level flags = 0
 Total triangle count: 3068
 Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
 2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 248 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (204114 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 656 texinfos to 253
+Reduced 68 texdatas to 58 (2709 bytes to 2162)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  76 portalclusters
+ 114 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.62%)
+Total clusters visible: 1616
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 43
+visdatasize:1900  compressed from 2432
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1291 faces
+2 degenerate faces
+300273 square feet [43239412.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1289 patches before subdivision
+25859 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1615335, max 464
+transfer lists:  12.3 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/4096         1008/196608   ( 0.5%) 
+brushes                556/65535        6672/786420   ( 0.8%) 
+brushsides            7955/655350      63640/5242800  ( 1.2%) 
+planes                9756/65536      195120/1310720  (14.9%) 
+vertexes              2436/65536       29232/786432   ( 3.7%) 
+nodes                  432/65536       13824/2097152  ( 0.7%) 
+texinfos               253/16384       18216/1179648  ( 1.5%) 
+texdata                 58/8192         1856/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1291/65536       72296/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              845/65536       47320/3670016  ( 1.3%) 
+leaves                 454/65536       14528/2097152  ( 0.7%) 
+leaffaces             1415/65536        2830/131072   ( 2.2%) 
+leafbrushes            885/65536        1770/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9304/512000      37216/2048000  ( 1.8%) 
+edges                 5899/256000      23596/1024000  ( 2.3%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            166/32768        1660/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2880/65536        5760/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                29/8192        10208/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2106788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1900/16777216 ( 0.0%) 
+entdata               [variable]       22000/393216   ( 5.6%) 
+LDR ambient table      454/65536        1816/262144   ( 0.7%) 
+HDR ambient table      454/65536        1816/262144   ( 0.7%) 
+LDR leaf ambient       276/65536        7728/1835008  ( 0.4%) 
+HDR leaf ambient       454/65536       12712/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/8136     ( 0.0%) 
+pakfile               [variable]      200827/0        ( 0.0%) 
+physics               [variable]      204114/4194304  ( 4.9%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3361
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 248 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (204114 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 656 texinfos to 253
+Reduced 68 texdatas to 58 (2709 bytes to 2162)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  76 portalclusters
+ 114 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.62%)
+Total clusters visible: 1616
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 43
+visdatasize:1900  compressed from 2432
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1291 faces
+2 degenerate faces
+300273 square feet [43239412.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1289 patches before subdivision
+25859 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1615335, max 464
+transfer lists:  12.3 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/4096         1008/196608   ( 0.5%) 
+brushes                556/65535        6672/786420   ( 0.8%) 
+brushsides            7955/655350      63640/5242800  ( 1.2%) 
+planes                9756/65536      195120/1310720  (14.9%) 
+vertexes              2436/65536       29232/786432   ( 3.7%) 
+nodes                  432/65536       13824/2097152  ( 0.7%) 
+texinfos               253/16384       18216/1179648  ( 1.5%) 
+texdata                 58/8192         1856/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1291/65536       72296/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              845/65536       47320/3670016  ( 1.3%) 
+leaves                 454/65536       14528/2097152  ( 0.7%) 
+leaffaces             1415/65536        2830/131072   ( 2.2%) 
+leafbrushes            885/65536        1770/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9304/512000      37216/2048000  ( 1.8%) 
+edges                 5899/256000      23596/1024000  ( 2.3%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            166/32768        1660/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2880/65536        5760/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                29/8192        10208/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2106788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1900/16777216 ( 0.0%) 
+entdata               [variable]       22000/393216   ( 5.6%) 
+LDR ambient table      454/65536        1816/262144   ( 0.7%) 
+HDR ambient table      454/65536        1816/262144   ( 0.7%) 
+LDR leaf ambient       276/65536        7728/1835008  ( 0.4%) 
+HDR leaf ambient       454/65536       12712/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/8136     ( 0.0%) 
+pakfile               [variable]      200827/0        ( 0.0%) 
+physics               [variable]      204114/4194304  ( 4.9%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3361
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 248 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (204752 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 661 texinfos to 257
+Reduced 70 texdatas to 59 (2817 bytes to 2205)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  77 portalclusters
+ 115 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.62%)
+Total clusters visible: 1625
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 43
+visdatasize:1920  compressed from 2464
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1297 faces
+2 degenerate faces
+302097 square feet [43502068.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1295 patches before subdivision
+26161 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1618744, max 464
+transfer lists:  12.4 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0039 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/4096         1008/196608   ( 0.5%) 
+brushes                557/65535        6684/786420   ( 0.8%) 
+brushsides            7961/655350      63688/5242800  ( 1.2%) 
+planes                9758/65536      195160/1310720  (14.9%) 
+vertexes              2441/65536       29292/786432   ( 3.7%) 
+nodes                  437/65536       13984/2097152  ( 0.7%) 
+texinfos               257/16384       18504/1179648  ( 1.6%) 
+texdata                 59/8192         1888/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1297/65536       72632/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              847/65536       47432/3670016  ( 1.3%) 
+leaves                 459/65536       14688/2097152  ( 0.7%) 
+leaffaces             1440/65536        2880/131072   ( 2.2%) 
+leafbrushes            920/65536        1840/131072   ( 1.4%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9339/512000      37356/2048000  ( 1.8%) 
+edges                 5923/256000      23692/1024000  ( 2.3%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            165/32768        1650/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2853/65536        5706/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/8192        10560/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2132796/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1920/16777216 ( 0.0%) 
+entdata               [variable]       22000/393216   ( 5.6%) 
+LDR ambient table      459/65536        1836/262144   ( 0.7%) 
+HDR ambient table      459/65536        1836/262144   ( 0.7%) 
+LDR leaf ambient       277/65536        7756/1835008  ( 0.4%) 
+HDR leaf ambient       459/65536       12852/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/8136     ( 0.0%) 
+pakfile               [variable]      201177/0        ( 0.0%) 
+physics               [variable]      204752/4194304  ( 4.9%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3376
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 256 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (215019 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 686 texinfos to 260
+Reduced 71 texdatas to 59 (2839 bytes to 2205)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  80 portalclusters
+ 123 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.60%)
+Total clusters visible: 1664
+Average clusters visible: 20
+Building PAS...
+Average clusters audible: 42
+visdatasize:1938  compressed from 2560
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1320 faces
+2 degenerate faces
+302522 square feet [43563308.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1318 patches before subdivision
+26302 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (1)
+transfers 1621272, max 464
+transfer lists:  12.4 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  21/4096         1008/196608   ( 0.5%) 
+brushes                588/65535        7056/786420   ( 0.9%) 
+brushsides            8202/655350      65616/5242800  ( 1.3%) 
+planes                9854/65536      197080/1310720  (15.0%) 
+vertexes              2490/65536       29880/786432   ( 3.8%) 
+nodes                  446/65536       14272/2097152  ( 0.7%) 
+texinfos               260/16384       18720/1179648  ( 1.6%) 
+texdata                 59/8192         1888/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1320/65536       73920/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              867/65536       48552/3670016  ( 1.3%) 
+leaves                 468/65536       14976/2097152  ( 0.7%) 
+leaffaces             1495/65536        2990/131072   ( 2.3%) 
+leafbrushes            981/65536        1962/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9533/512000      38132/2048000  ( 1.9%) 
+edges                 6049/256000      24196/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            168/32768        1680/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2922/65536        5844/131072   ( 4.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/8192        10560/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2136216/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        1938/16777216 ( 0.0%) 
+entdata               [variable]       22000/393216   ( 5.6%) 
+LDR ambient table      468/65536        1872/262144   ( 0.7%) 
+HDR ambient table      468/65536        1872/262144   ( 0.7%) 
+LDR leaf ambient       280/65536        7840/1835008  ( 0.4%) 
+HDR leaf ambient       468/65536       13104/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/9166     ( 0.0%) 
+pakfile               [variable]      201177/0        ( 0.0%) 
+physics               [variable]      215019/4194304  ( 5.1%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3444
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 256 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (216754 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 700 texinfos to 263
+Reduced 72 texdatas to 60 (2855 bytes to 2221)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  81 portalclusters
+ 124 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.60%)
+Total clusters visible: 1679
+Average clusters visible: 20
+Building PAS...
+Average clusters audible: 42
+visdatasize:2071  compressed from 2592
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1321 faces
+2 degenerate faces
+302906 square feet [43618492.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1319 patches before subdivision
+26245 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1616945, max 464
+transfer lists:  12.3 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0038 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/4096         1056/196608   ( 0.5%) 
+brushes                594/65535        7128/786420   ( 0.9%) 
+brushsides            8254/655350      66032/5242800  ( 1.3%) 
+planes                9916/65536      198320/1310720  (15.1%) 
+vertexes              2496/65536       29952/786432   ( 3.8%) 
+nodes                  453/65536       14496/2097152  ( 0.7%) 
+texinfos               263/16384       18936/1179648  ( 1.6%) 
+texdata                 60/8192         1920/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1321/65536       73976/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              869/65536       48664/3670016  ( 1.3%) 
+leaves                 476/65536       15232/2097152  ( 0.7%) 
+leaffaces             1498/65536        2996/131072   ( 2.3%) 
+leafbrushes            988/65536        1976/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9537/512000      38148/2048000  ( 1.9%) 
+edges                 6059/256000      24236/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            167/32768        1670/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2898/65536        5796/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/8192        10560/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2135788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2071/16777216 ( 0.0%) 
+entdata               [variable]       23416/393216   ( 6.0%) 
+LDR ambient table      476/65536        1904/262144   ( 0.7%) 
+HDR ambient table      476/65536        1904/262144   ( 0.7%) 
+LDR leaf ambient       288/65536        8064/1835008  ( 0.4%) 
+HDR leaf ambient       476/65536       13328/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/9168     ( 0.0%) 
+pakfile               [variable]      201177/0        ( 0.0%) 
+physics               [variable]      216754/4194304  ( 5.2%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3438
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 256 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (216754 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 700 texinfos to 263
+Reduced 72 texdatas to 60 (2855 bytes to 2221)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  81 portalclusters
+ 124 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.60%)
+Total clusters visible: 1679
+Average clusters visible: 20
+Building PAS...
+Average clusters audible: 42
+visdatasize:2071  compressed from 2592
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1321 faces
+2 degenerate faces
+302906 square feet [43618492.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1319 patches before subdivision
+26245 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1616945, max 464
+transfer lists:  12.3 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0046 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/4096         1056/196608   ( 0.5%) 
+brushes                594/65535        7128/786420   ( 0.9%) 
+brushsides            8254/655350      66032/5242800  ( 1.3%) 
+planes                9916/65536      198320/1310720  (15.1%) 
+vertexes              2496/65536       29952/786432   ( 3.8%) 
+nodes                  453/65536       14496/2097152  ( 0.7%) 
+texinfos               263/16384       18936/1179648  ( 1.6%) 
+texdata                 60/8192         1920/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1321/65536       73976/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              869/65536       48664/3670016  ( 1.3%) 
+leaves                 476/65536       15232/2097152  ( 0.7%) 
+leaffaces             1498/65536        2996/131072   ( 2.3%) 
+leafbrushes            988/65536        1976/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9537/512000      38148/2048000  ( 1.9%) 
+edges                 6059/256000      24236/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            167/32768        1670/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2898/65536        5796/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/8192        10560/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2135788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2071/16777216 ( 0.0%) 
+entdata               [variable]       23454/393216   ( 6.0%) 
+LDR ambient table      476/65536        1904/262144   ( 0.7%) 
+HDR ambient table      476/65536        1904/262144   ( 0.7%) 
+LDR leaf ambient       288/65536        8064/1835008  ( 0.4%) 
+HDR leaf ambient       476/65536       13328/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/9168     ( 0.0%) 
+pakfile               [variable]      201177/0        ( 0.0%) 
+physics               [variable]      216754/4194304  ( 5.2%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3438
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 256 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (216754 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 700 texinfos to 263
+Reduced 72 texdatas to 60 (2855 bytes to 2221)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  81 portalclusters
+ 124 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.60%)
+Total clusters visible: 1679
+Average clusters visible: 20
+Building PAS...
+Average clusters audible: 42
+visdatasize:2071  compressed from 2592
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1321 faces
+2 degenerate faces
+302906 square feet [43618492.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1319 patches before subdivision
+26245 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1616945, max 464
+transfer lists:  12.3 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0035 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  22/4096         1056/196608   ( 0.5%) 
+brushes                594/65535        7128/786420   ( 0.9%) 
+brushsides            8254/655350      66032/5242800  ( 1.3%) 
+planes                9916/65536      198320/1310720  (15.1%) 
+vertexes              2496/65536       29952/786432   ( 3.8%) 
+nodes                  453/65536       14496/2097152  ( 0.7%) 
+texinfos               263/16384       18936/1179648  ( 1.6%) 
+texdata                 60/8192         1920/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1321/65536       73976/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              869/65536       48664/3670016  ( 1.3%) 
+leaves                 476/65536       15232/2097152  ( 0.7%) 
+leaffaces             1498/65536        2996/131072   ( 2.3%) 
+leafbrushes            988/65536        1976/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9537/512000      38148/2048000  ( 1.9%) 
+edges                 6059/256000      24236/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            167/32768        1670/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2898/65536        5796/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/8192        10560/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2135788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2071/16777216 ( 0.0%) 
+entdata               [variable]       23454/393216   ( 6.0%) 
+LDR ambient table      476/65536        1904/262144   ( 0.7%) 
+HDR ambient table      476/65536        1904/262144   ( 0.7%) 
+LDR leaf ambient       288/65536        8064/1835008  ( 0.4%) 
+HDR leaf ambient       476/65536       13328/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/9168     ( 0.0%) 
+pakfile               [variable]      201177/0        ( 0.0%) 
+physics               [variable]      216754/4194304  ( 5.2%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3438
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 256 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (218419 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 703 texinfos to 266
+Reduced 73 texdatas to 61 (2874 bytes to 2240)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  81 portalclusters
+ 124 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.60%)
+Total clusters visible: 1679
+Average clusters visible: 20
+Building PAS...
+Average clusters audible: 42
+visdatasize:2071  compressed from 2592
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1339 faces
+2 degenerate faces
+308708 square feet [44454076.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1337 patches before subdivision
+26263 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1618327, max 464
+transfer lists:  12.3 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0036 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  25/4096         1200/196608   ( 0.6%) 
+brushes                597/65535        7164/786420   ( 0.9%) 
+brushsides            8272/655350      66176/5242800  ( 1.3%) 
+planes                9930/65536      198600/1310720  (15.2%) 
+vertexes              2520/65536       30240/786432   ( 3.8%) 
+nodes                  471/65536       15072/2097152  ( 0.7%) 
+texinfos               266/16384       19152/1179648  ( 1.6%) 
+texdata                 61/8192         1952/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1339/65536       74984/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              887/65536       49672/3670016  ( 1.4%) 
+leaves                 497/65536       15904/2097152  ( 0.8%) 
+leaffaces             1516/65536        3032/131072   ( 2.3%) 
+leafbrushes            991/65536        1982/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9681/512000      38724/2048000  ( 1.9%) 
+edges                 6131/256000      24524/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            167/32768        1670/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2898/65536        5796/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/8192        10560/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2135788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2071/16777216 ( 0.0%) 
+entdata               [variable]       23836/393216   ( 6.1%) 
+LDR ambient table      497/65536        1988/262144   ( 0.8%) 
+HDR ambient table      497/65536        1988/262144   ( 0.8%) 
+LDR leaf ambient       306/65536        8568/1835008  ( 0.5%) 
+HDR leaf ambient       497/65536       13916/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/9168     ( 0.0%) 
+pakfile               [variable]      201177/0        ( 0.0%) 
+physics               [variable]      218419/4194304  ( 5.2%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3474
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 256 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (217311 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 703 texinfos to 266
+Reduced 73 texdatas to 61 (2874 bytes to 2240)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  81 portalclusters
+ 124 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.60%)
+Total clusters visible: 1679
+Average clusters visible: 20
+Building PAS...
+Average clusters audible: 42
+visdatasize:2071  compressed from 2592
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1327 faces
+2 degenerate faces
+321277 square feet [46263996.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1325 patches before subdivision
+26251 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1617455, max 464
+transfer lists:  12.3 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0037 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (0)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/4096         1104/196608   ( 0.6%) 
+brushes                595/65535        7140/786420   ( 0.9%) 
+brushsides            8260/655350      66080/5242800  ( 1.3%) 
+planes                9920/65536      198400/1310720  (15.1%) 
+vertexes              2504/65536       30048/786432   ( 3.8%) 
+nodes                  459/65536       14688/2097152  ( 0.7%) 
+texinfos               266/16384       19152/1179648  ( 1.6%) 
+texdata                 61/8192         1952/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1327/65536       74312/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              875/65536       49000/3670016  ( 1.3%) 
+leaves                 483/65536       15456/2097152  ( 0.7%) 
+leaffaces             1504/65536        3008/131072   ( 2.3%) 
+leafbrushes            989/65536        1978/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9585/512000      38340/2048000  ( 1.9%) 
+edges                 6083/256000      24332/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            167/32768        1670/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2898/65536        5796/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/8192        10560/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2135788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2071/16777216 ( 0.0%) 
+entdata               [variable]       23444/393216   ( 6.0%) 
+LDR ambient table      483/65536        1932/262144   ( 0.7%) 
+HDR ambient table      483/65536        1932/262144   ( 0.7%) 
+LDR leaf ambient       294/65536        8232/1835008  ( 0.4%) 
+HDR leaf ambient       483/65536       13524/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/9168     ( 0.0%) 
+pakfile               [variable]      201177/0        ( 0.0%) 
+physics               [variable]      217311/4194304  ( 5.2%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3450
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 256 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (217311 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 703 texinfos to 266
+Reduced 73 texdatas to 61 (2874 bytes to 2240)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  81 portalclusters
+ 124 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.60%)
+Total clusters visible: 1679
+Average clusters visible: 20
+Building PAS...
+Average clusters audible: 42
+visdatasize:2071  compressed from 2592
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1327 faces
+2 degenerate faces
+321277 square feet [46263996.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1325 patches before subdivision
+26251 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1617455, max 464
+transfer lists:  12.3 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0039 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/4096         1104/196608   ( 0.6%) 
+brushes                595/65535        7140/786420   ( 0.9%) 
+brushsides            8260/655350      66080/5242800  ( 1.3%) 
+planes                9920/65536      198400/1310720  (15.1%) 
+vertexes              2504/65536       30048/786432   ( 3.8%) 
+nodes                  459/65536       14688/2097152  ( 0.7%) 
+texinfos               266/16384       19152/1179648  ( 1.6%) 
+texdata                 61/8192         1952/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1327/65536       74312/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              875/65536       49000/3670016  ( 1.3%) 
+leaves                 483/65536       15456/2097152  ( 0.7%) 
+leaffaces             1504/65536        3008/131072   ( 2.3%) 
+leafbrushes            989/65536        1978/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9585/512000      38340/2048000  ( 1.9%) 
+edges                 6083/256000      24332/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            167/32768        1670/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2898/65536        5796/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/8192        10560/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2135788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2071/16777216 ( 0.0%) 
+entdata               [variable]       23444/393216   ( 6.0%) 
+LDR ambient table      483/65536        1932/262144   ( 0.7%) 
+HDR ambient table      483/65536        1932/262144   ( 0.7%) 
+LDR leaf ambient       294/65536        8232/1835008  ( 0.4%) 
+HDR leaf ambient       483/65536       13524/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/9168     ( 0.0%) 
+pakfile               [variable]      201177/0        ( 0.0%) 
+physics               [variable]      217311/4194304  ( 5.2%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3450
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 256 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (217311 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 703 texinfos to 266
+Reduced 73 texdatas to 61 (2874 bytes to 2240)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  81 portalclusters
+ 124 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.60%)
+Total clusters visible: 1679
+Average clusters visible: 20
+Building PAS...
+Average clusters audible: 42
+visdatasize:2071  compressed from 2592
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1327 faces
+2 degenerate faces
+321277 square feet [46263996.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1325 patches before subdivision
+26251 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1617455, max 464
+transfer lists:  12.3 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0037 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/4096         1104/196608   ( 0.6%) 
+brushes                595/65535        7140/786420   ( 0.9%) 
+brushsides            8260/655350      66080/5242800  ( 1.3%) 
+planes                9920/65536      198400/1310720  (15.1%) 
+vertexes              2504/65536       30048/786432   ( 3.8%) 
+nodes                  459/65536       14688/2097152  ( 0.7%) 
+texinfos               266/16384       19152/1179648  ( 1.6%) 
+texdata                 61/8192         1952/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1327/65536       74312/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              875/65536       49000/3670016  ( 1.3%) 
+leaves                 483/65536       15456/2097152  ( 0.7%) 
+leaffaces             1504/65536        3008/131072   ( 2.3%) 
+leafbrushes            989/65536        1978/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9585/512000      38340/2048000  ( 1.9%) 
+edges                 6083/256000      24332/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            167/32768        1670/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2898/65536        5796/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/8192        10560/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2135788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2071/16777216 ( 0.0%) 
+entdata               [variable]       23446/393216   ( 6.0%) 
+LDR ambient table      483/65536        1932/262144   ( 0.7%) 
+HDR ambient table      483/65536        1932/262144   ( 0.7%) 
+LDR leaf ambient       294/65536        8232/1835008  ( 0.4%) 
+HDR leaf ambient       483/65536       13524/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/9168     ( 0.0%) 
+pakfile               [variable]      201177/0        ( 0.0%) 
+physics               [variable]      217311/4194304  ( 5.2%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3450
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 256 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (217311 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 703 texinfos to 266
+Reduced 73 texdatas to 61 (2874 bytes to 2240)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  81 portalclusters
+ 124 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.60%)
+Total clusters visible: 1679
+Average clusters visible: 20
+Building PAS...
+Average clusters audible: 42
+visdatasize:2071  compressed from 2592
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1327 faces
+2 degenerate faces
+321277 square feet [46263996.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1325 patches before subdivision
+26251 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1617455, max 464
+transfer lists:  12.3 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0037 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/4096         1104/196608   ( 0.6%) 
+brushes                595/65535        7140/786420   ( 0.9%) 
+brushsides            8260/655350      66080/5242800  ( 1.3%) 
+planes                9920/65536      198400/1310720  (15.1%) 
+vertexes              2504/65536       30048/786432   ( 3.8%) 
+nodes                  459/65536       14688/2097152  ( 0.7%) 
+texinfos               266/16384       19152/1179648  ( 1.6%) 
+texdata                 61/8192         1952/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1327/65536       74312/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              875/65536       49000/3670016  ( 1.3%) 
+leaves                 483/65536       15456/2097152  ( 0.7%) 
+leaffaces             1504/65536        3008/131072   ( 2.3%) 
+leafbrushes            989/65536        1978/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9585/512000      38340/2048000  ( 1.9%) 
+edges                 6083/256000      24332/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            167/32768        1670/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2898/65536        5796/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/8192        10560/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2135788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2071/16777216 ( 0.0%) 
+entdata               [variable]       23452/393216   ( 6.0%) 
+LDR ambient table      483/65536        1932/262144   ( 0.7%) 
+HDR ambient table      483/65536        1932/262144   ( 0.7%) 
+LDR leaf ambient       294/65536        8232/1835008  ( 0.4%) 
+HDR leaf ambient       483/65536       13524/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/9168     ( 0.0%) 
+pakfile               [variable]      201177/0        ( 0.0%) 
+physics               [variable]      217311/4194304  ( 5.2%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3450
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
+
+
+
+materialPath: W:\Programs\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.vmf
+Patching WVT material: maps/cd_cavediver_dream/dev/dev_blendmeasure_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/nature/blendmudmud001a_wvt_patch
+Patching WVT material: maps/cd_cavediver_dream/woowz_map/cavediver_dream/ground_dirt_dry-ground_dirt_leaves_wet_podzol_wvt_patch
+fixing up env_cubemap materials on brush sides...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER_DARK is depending on itself through materialvar $bottommaterial! Ignoring...
+Material WOOWZ_MAP/CAVEDIVER_DREAM/WATER2 is depending on itself through materialvar $bottommaterial! Ignoring...
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+ProcessBlock_Thread: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 256 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt...
+Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/cavediver_dream*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (217311 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 703 texinfos to 266
+Reduced 73 texdatas to 61 (2874 bytes to 2240)
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+1 second elapsed
+
+
+
+16 threads
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+reading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.prt
+  81 portalclusters
+ 124 numportals
+BasePortalVis:       0...1...2...3...4...5...6...7...8...9...10 (0)
+PortalFlow:          0...1...2...3...4...5...6...7...8...9...10 (0)
+Optimized: 10 visible clusters (0.60%)
+Total clusters visible: 1679
+Average clusters visible: 20
+Building PAS...
+Average clusters audible: 42
+visdatasize:2071  compressed from 2592
+writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+PREP OK
+1327 faces
+2 degenerate faces
+321277 square feet [46263996.00 square inches]
+64 Displacements
+47178 Square Feet [6793754.00 Square Inches]
+1325 patches before subdivision
+26251 patches after subdivision
+3 direct lights
+BuildFacelights:     0...1...2...3...4...5...6...7...8...9...10 (0)
+BuildVisLeafs:       0...1...2...3...4...5...6...7...8...9...10 (0)
+transfers 1617455, max 464
+transfer lists:  12.3 megs
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #1 added RGB(49, 41, 24)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #2 added RGB(2, 2, 2)
+GatherLight:         0...1...2...3...4...5...6...7...8...9...10 (0)
+	Bounce #3 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0038 sec>
+FinalLightFace:      0...1...2...3...4...5...6...7...8...9...10 (1)
+FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ThreadComputeLeafAmbient: 0...1...2...3...4...5...6...7...8...9...10 (0)
+Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  23/4096         1104/196608   ( 0.6%) 
+brushes                595/65535        7140/786420   ( 0.9%) 
+brushsides            8260/655350      66080/5242800  ( 1.3%) 
+planes                9920/65536      198400/1310720  (15.1%) 
+vertexes              2504/65536       30048/786432   ( 3.8%) 
+nodes                  459/65536       14688/2097152  ( 0.7%) 
+texinfos               266/16384       19152/1179648  ( 1.6%) 
+texdata                 61/8192         1952/262144   ( 0.7%) 
+dispinfos               64/0           11264/0        ( 0.0%) 
+disp_verts            5128/0          102560/0        ( 0.0%) 
+disp_tris             8096/0           16192/0        ( 0.0%) 
+disp_lmsamples      104752/0          104752/0        ( 0.0%) 
+faces                 1327/65536       74312/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              875/65536       49000/3670016  ( 1.3%) 
+leaves                 483/65536       15456/2097152  ( 0.7%) 
+leaffaces             1504/65536        3008/131072   ( 2.3%) 
+leafbrushes            989/65536        1978/131072   ( 1.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             9585/512000      38340/2048000  ( 1.9%) 
+edges                 6083/256000      24332/1024000  ( 2.4%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            4/32768          48/393216   ( 0.0%) 
+waterstrips            167/32768        1670/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2898/65536        5796/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/8192        10560/2883584  ( 0.4%) 
+LDR lightdata         [variable]     2135788/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        2071/16777216 ( 0.0%) 
+entdata               [variable]       23445/393216   ( 6.0%) 
+LDR ambient table      483/65536        1932/262144   ( 0.7%) 
+HDR ambient table      483/65536        1932/262144   ( 0.7%) 
+LDR leaf ambient       294/65536        8232/1835008  ( 0.4%) 
+HDR leaf ambient       483/65536       13524/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/550116   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/9168     ( 0.0%) 
+pakfile               [variable]      201177/0        ( 0.0%) 
+physics               [variable]      217311/4194304  ( 5.2%) 
+physics terrain       [variable]       22924/1048576  ( 2.2%) 
+
+Level flags = 0
+
+Total triangle count: 3450
+Writing w:\programs\steam\steamapps\common\garrysmod\garrysmod\addons\wip-addons\cavediver-dream\cd_cavediver_dream.bsp
+2 seconds elapsed
