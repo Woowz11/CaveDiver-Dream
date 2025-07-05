@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "427"
+	"mapversion" "428"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "16"
 }
 palette_plus
 {
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "427"
+	"mapversion" "428"
 	"classname" "worldspawn"
 	"detailmaterial" "woowz_map/cavediver_dream/detail"
 	"detailvbsp" "cavediver_dream_detail.vbsp"
@@ -33068,7 +33068,7 @@ world
 				"v" "-11360 1024 13752"
 				"v" "-11616 1024 13752"
 			}
-			"material" "WOOWZ_MAP/CAVEDIVER_DREAM/WATER2"
+			"material" "WOOWZ_MAP/CAVEDIVER_DREAM/WATER3"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -93020,6 +93020,144 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "47738"
+	"classname" "func_illusionary"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"origin" "-11487.5 1161.35 13752.5"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	solid
+	{
+		"id" "47739"
+		side
+		{
+			"id" "33428"
+			"plane" "(-11360 1264 13752) (-11616 1264 13752) (-11616 1056 13752)"
+			vertices_plus
+			{
+				"v" "-11360 1264 13752"
+				"v" "-11616 1264 13752"
+				"v" "-11616 1056 13752"
+				"v" "-11360 1056 13752"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 11.3415] 1.875"
+			"vaxis" "[1 0 0 51.0037] 1.875"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33427"
+			"plane" "(-11616 1264 13753) (-11360 1264 13753) (-11360 1056 13753)"
+			vertices_plus
+			{
+				"v" "-11616 1264 13753"
+				"v" "-11360 1264 13753"
+				"v" "-11360 1056 13753"
+				"v" "-11616 1056 13753"
+			}
+			"material" "WOOWZ_MAP/CAVEDIVER_DREAM/WATER_OVERLAY/WATEROVERLAY4"
+			"uaxis" "[0 1 0 -19.6923] 0.8125"
+			"vaxis" "[1 0 0 96] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33426"
+			"plane" "(-11360 1056 13753) (-11360 1056 13752) (-11616 1056 13752)"
+			vertices_plus
+			{
+				"v" "-11360 1056 13753"
+				"v" "-11360 1056 13752"
+				"v" "-11616 1056 13752"
+				"v" "-11616 1056 13753"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -49.835] 1.875"
+			"vaxis" "[0 0 1 63.9375] 0.015625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33425"
+			"plane" "(-11360 1264 13752) (-11360 1264 13753) (-11616 1264 13753)"
+			vertices_plus
+			{
+				"v" "-11360 1264 13752"
+				"v" "-11360 1264 13753"
+				"v" "-11616 1264 13753"
+				"v" "-11616 1264 13752"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -49.835] 1.875"
+			"vaxis" "[0 0 1 63.9375] 0.015625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33424"
+			"plane" "(-11616 1056 13753) (-11616 1056 13752) (-11616 1264 13752)"
+			vertices_plus
+			{
+				"v" "-11616 1056 13753"
+				"v" "-11616 1056 13752"
+				"v" "-11616 1264 13752"
+				"v" "-11616 1264 13753"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0.00305817 1 0 9.86846] 1.875"
+			"vaxis" "[0 0 1 63.9375] 0.015625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33423"
+			"plane" "(-11360 1056 13752) (-11360 1056 13753) (-11360 1264 13753)"
+			vertices_plus
+			{
+				"v" "-11360 1056 13752"
+				"v" "-11360 1056 13753"
+				"v" "-11360 1264 13753"
+				"v" "-11360 1264 13752"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0.00305817 1 0 9.86846] 1.875"
+			"vaxis" "[0 0 1 63.9375] 0.015625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -15268]"
 	}
 }
 cameras
