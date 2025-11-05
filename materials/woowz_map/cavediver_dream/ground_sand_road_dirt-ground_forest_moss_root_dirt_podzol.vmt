@@ -6,8 +6,8 @@ WorldVertexTransition
 	$bumpmap "woowz_map/cavediver_dream/ground_sand_road_dirt_n"
 	$surfaceprop "sand"
 
-	$basetexture2 "woowz_map/cavediver_dream/ground_forest_moss_root_dirt_podzol"
-	$bumpmap2 "woowz_map/cavediver_dream/ground_forest_moss_root_dirt_podzol_n"
+	$basetexture2 "woowz_map/cavediver_dream/dirt/leaves"
+	$bumpmap2 "woowz_map/cavediver_dream/dirt/leaves_n"
 	$surfaceprop2 "dirt"
 	
 	$detail "woowz_map/cavediver_dream/noise"
